@@ -35,7 +35,7 @@
         "@types/yargs": "12.0.1"
     },
     "peerDependencies": {
-        "mobx": "^5.15.0 || ^6.0.0",
+        "mobx": "^5.15.0",
         "react": "^16.8.0 || 16.9.0-alpha.0 || ^18"
     },
     "devDependencies": {
@@ -85,7 +85,7 @@
         "typescript": "^3.7.0"
     },
     "dependencies": {
-        "mobx-react-lite": "^3.0.0"
+        "mobx-react-lite": "^2.0.0"
     },
     "files": [
         "dist",
