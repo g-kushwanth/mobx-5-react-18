@@ -1,0 +1,19 @@
+{
+	"version": "1.7.5",
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"jsx": "react",
+		"lib": ["es6", "dom"],
+		"module": "commonjs",
+		"noEmit": true,
+		"noUnusedParameters": true,
+		"noImplicitAny": false,
+		"rootDir": "../../",
+		"strict": true,
+		"target": "es5",
+	},
+	"exclude": [
+
+	]
+}
