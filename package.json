@@ -21,16 +21,15 @@
         "test": "jest",
         "watch": "jest --watch",
         "lint": "eslint .",
-        "test:types": "yarn tsc --noEmit",
-        "test:check": "yarn test:types && yarn lint",
+        "test:types": "npm tsc --noEmit",
+        "test:check": "npm test:types && npm lint",
         "test:ts": "tsc -p test",
         "test:coverage": "jest -i --coverage",
         "test:size": "size-limit",
         "prettier": "prettier --write \"**/*.js\" \"**/*.ts\" \"**/*.tsx\"",
-        "release": "yarn build && yarn changeset publish",
+        "release": "npm build && npm changeset publish",
         "build": "tsdx build --name mobxReact --format cjs,esm,umd",
-        "postbuild": "yarn v6compat",
-        "v6compat": "shx cp dist/mobxreact.umd.production.min.js dist/mobx-react.umd.js"
+        "postbuild": "shx cp dist/mobxreact.umd.production.min.js dist/mobx-react.umd.js"
     },
     "resolutions": {
         "@types/yargs": "12.0.1"
